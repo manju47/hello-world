@@ -9,11 +9,7 @@ environment{
                 echo 'Hello World'
             }
         }
-        stage('Hi') {
-            steps {
-                echo 'How are you'
-            }
-        }
+        
         stage('scm') {
             steps {
                git 'https://github.com/manju47/hello-world.git'
